@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UserTypeMotionLayoutDemo</string>
+    <string name="user">User</string>
+    <string name="employee">Employee</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

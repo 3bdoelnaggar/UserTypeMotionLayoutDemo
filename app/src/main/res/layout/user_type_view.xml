@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_width="wrap_content"
+    tools:layout_height="wrap_content"
+    tools:parentTag="elnaggar.usertypemostionlayoutdemo.MaterialMotionLayout">
+
+    <View
+        android:id="@+id/selected_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/user_type_selected_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/anonymous_mbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/anonymous_mbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="32dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="32dp"
+        android:paddingBottom="16dp"
+        android:text="@string/user"
+        android:textAlignment="center"
+        android:textAppearance="?attr/textAppearanceButton"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/employee_mbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/employee"
+        android:textAlignment="center"
+        android:textAppearance="?attr/textAppearanceButton"
+        android:textColor="@color/colorSecondary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/anonymous_mbtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</merge>
